@@ -211,8 +211,6 @@ function copyFromBucket(bucket, destinationFolder, shouldDelete, flagName) {
       }
       //FUUUUUUUUUUCK TEAM DRIVES!
       //Drive.Files.update({title: name}, fileId, blob, {supportTeamDrives: true});
-      //https://drive.google.com/open?id=0BzZGXq-k-MGeYUR2WmpXV1MzQzA
-      //                                 0BzZGXq-k-MGeYUR2WmpXV1MzQzA
     } else {
       Logger.log("File does not exist, creating");
       blob.setName(name);
